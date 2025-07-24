@@ -19,7 +19,7 @@ export function setupAuthEvents() {
 
       try {
         await signInWithEmailAndPassword(auth, email, password);
-        window.location.hash = "#/contact"; // ⬅️ arahkan ke halaman contact setelah login
+        window.location.hash = "#/contact";
       } catch (err) {
         loginError.classList.remove('hidden');
       }
