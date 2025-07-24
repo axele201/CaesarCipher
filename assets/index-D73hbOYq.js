@@ -3,7 +3,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 items-center">
           <div class="flex items-center space-x-3">
-            <img src="public/DIA.png" alt="Logo" class="h-9 w-9 rounded-sm shadow" />
+            <img src="/CaesarCipher/DIA.png" alt="Logo" class="h-9 w-9 rounded-sm shadow" />
             <span class="text-2xl font-bold text-purple-400 tracking-wide">Caesar Cipher</span>
           </div>
 
@@ -33,7 +33,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
         <!-- Branding -->
         <div class="space-y-4">
           <div class="flex items-center space-x-2">
-            <img src="public/DIA.png" alt="Logo Dimas" class="h-9 w-9 rounded shadow" />
+            <img src="/CaesarCipher/DIA.png" alt="Logo Dimas" class="h-9 w-9 rounded shadow" />
             <span class="text-xl font-bold text-purple-400">Dimas Ismawan</span>
           </div>
           <p class="text-sm leading-relaxed text-gray-400">
@@ -93,7 +93,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
             ${$()}
         </footer>
     `}function H(){return setTimeout(()=>{const e=document.getElementById("preview-button");e&&e.addEventListener("click",()=>{location.hash="#/preview"})},0),`
-    <div class="relative bg-cover bg-center text-white" style="background-image: url('public/kriptobg.avif');">
+    <div class="relative bg-cover bg-center text-white" style="background-image: url('/CaesarCipher/kriptobg.avif');">
       <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
 
       <div class="relative z-10 mx-auto max-w-2xl px-6 py-32 text-center sm:py-48 lg:py-56">
@@ -200,7 +200,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
           </div>
           <div class="relative">
             <img
-              src="public/cs.png"
+              src="/CaesarCipher/cs.png"
               alt="Caesar Cipher App Screenshot"
               class="w-full max-w-md mx-auto rounded-xl shadow-xl ring-1 ring-white/10"
             />
@@ -250,7 +250,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
     ${F()}
     ${K()}
     ${O()}
-    `}function J(){return setTimeout(()=>{document.body.addEventListener("click",()=>{location.hash="#/home"},{once:!0});const e=document.getElementById("lottie-wave");e&&lottie.loadAnimation({container:e,renderer:"svg",loop:!0,autoplay:!0,path:"public/animation.json"})},0),`
+    `}function J(){return setTimeout(()=>{document.body.addEventListener("click",()=>{location.hash="#/home"},{once:!0});const e=document.getElementById("lottie-wave");e&&lottie.loadAnimation({container:e,renderer:"svg",loop:!0,autoplay:!0,path:"/CaesarCipher/animation.json"})},0),`
     <section class="min-h-screen flex flex-col justify-center items-center bg-purple-50 text-center px-4 cursor-pointer">
       <div id="lottie-wave" class="w-40 h-40 mb-4"></div>
 
