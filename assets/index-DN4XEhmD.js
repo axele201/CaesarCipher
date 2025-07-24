@@ -134,7 +134,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
             <li>✔️ Tanpa case sensitivity</li>
             <li>✔️ Output statis</li>
           </ul>
-          <a href="/file/caesar.py" download class="block text-center rounded-md border border-indigo-500 px-4 py-2 text-sm font-medium text-indigo-400 hover:bg-indigo-600 hover:text-white transition">Download</a>
+          <a href="/CaesarCipher/file/caesar.py" download class="block text-center rounded-md border border-indigo-500 px-4 py-2 text-sm font-medium text-indigo-400 hover:bg-indigo-600 hover:text-white transition">Download</a>
         </div>
 
         <!-- Card 2 -->
@@ -146,7 +146,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
             <li>✔️ Perhitungan frekuensi huruf</li>
             <li>✔️ UI berbasis web</li>
           </ul>
-          <a href="/file/kripto.html" download class="block text-center rounded-md border border-purple-500 px-4 py-2 text-sm font-medium text-purple-400 hover:bg-purple-600 hover:text-white transition">Download</a>
+          <a href="/CaesarCipher/file/kripto.html" download class="block text-center rounded-md border border-purple-500 px-4 py-2 text-sm font-medium text-purple-400 hover:bg-purple-600 hover:text-white transition">Download</a>
         </div>
 
         <!-- Card 3 -->
@@ -158,7 +158,7 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
             <li>✔️ Output statis</li>  
             <li>✔️ GUI </li>
           </ul>
-          <a href="/file/caesar_gui.py" download class="block text-center rounded-md border border-pink-500 px-4 py-2 text-sm font-medium text-pink-400 hover:bg-pink-600 hover:text-white transition">Download</a>
+          <a href="/CaesarCipher/file/caesar_gui.py" download class="block text-center rounded-md border border-pink-500 px-4 py-2 text-sm font-medium text-pink-400 hover:bg-pink-600 hover:text-white transition">Download</a>
         </div>
       </div>
     </section>
