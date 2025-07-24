@@ -251,15 +251,15 @@ import{initializeApp as L}from"https://www.gstatic.com/firebasejs/11.10.0/fireba
     ${K()}
     ${O()}
     `}function J(){return setTimeout(()=>{document.body.addEventListener("click",()=>{location.hash="#/home"},{once:!0});const e=document.getElementById("lottie-wave");e&&lottie.loadAnimation({container:e,renderer:"svg",loop:!0,autoplay:!0,path:"/CaesarCipher/animation.json"})},0),`
-    <section class="min-h-screen flex flex-col justify-center items-center bg-purple-50 text-center px-4 cursor-pointer">
-      <div id="lottie-wave" class="w-40 h-40 mb-4"></div>
+    <section class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-center px-4 cursor-pointer transition-all duration-500">
+      <div id="lottie-wave" class="w-52 h-52 mb-6"></div>
 
-      <div class="flex items-center justify-center space-x-2 mb-4">
-        <h1 class="text-5xl font-bold text-purple-700">Hi, I’m Dimas</h1>
-      </div>
-
-      <p class="text-lg text-gray-700 max-w-xl">
-        Klik di mana saja untuk masuk ke portfolio saya.
+      <h1 class="text-4xl md:text-5xl font-extrabold text-purple-400 tracking-wide mb-2">
+        Hi, Saya Dimas, Selamat datang di Dunia Cipher
+      </h1>
+      
+      <p class="text-md md:text-lg text-gray-300 max-w-xl">
+        Klik di mana saja untuk menjelajahi pengetahuan aplikasi Caesar Cipher.
       </p>
     </section>
   `}function R(e,t,i="encrypt"){i==="decrypt"&&(t=-t);let s="";for(let a=0;a<e.length;a++){const r=e[a];if(/[a-zA-Z]/.test(r)){const n=r===r.toUpperCase()?65:97,l=((r.charCodeAt(0)-n+t)%26+26)%26+n;s+=String.fromCharCode(l)}else s+=r}return s}function x(e){const t=document.getElementById("inputText").value,i=parseInt(document.getElementById("shiftInput").value)||0,s=R(t,i,e);document.getElementById("outputText").value=s;const a=JSON.parse(localStorage.getItem("history"))||[];a.unshift({mode:e,shift:i,input:t,output:s,timestamp:new Date().toLocaleString()}),a.length>10&&(a.length=10),localStorage.setItem("history",JSON.stringify(a)),v()}function v(){const e=JSON.parse(localStorage.getItem("history"))||[],t=document.getElementById("historyList");t&&(t.innerHTML=e.length===0?'<li class="italic text-gray-400">Belum ada riwayat.</li>':"",e.forEach(i=>{const s=document.createElement("li");s.innerHTML=`
